@@ -30,3 +30,6 @@ if Edad_para_tomar > 21 and conduccion == 'n':
     print('Si puedes tomar bebidas alcoholicas')
 else:
     print('No puedes tomar bebidas alcoholicas')
+
+
+print('hola')
