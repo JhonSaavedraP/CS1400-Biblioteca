@@ -9,6 +9,7 @@ en una escala de 4.0, y luego calculará el GPA final del semestre basado en los
 def porcentaje_a_gpa(porcentaje):
     if porcentaje >= 93:
         return 4.0
+    
     # TODO 1: Completa la función para convertir el porcentaje a GPA usando la escala estándar.
 
     else:

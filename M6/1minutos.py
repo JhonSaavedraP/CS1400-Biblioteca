@@ -7,11 +7,12 @@ basado en una tarifa fija para los primeros 1000 minutos y una tarifa adicional 
 
 # TODO 1: Pedir al usuario cuantos minutos (redondeado al mas cercano entero) ha usado, y asignarlo a una variable.
 
-
+entrada = input('Cuantos minutos has usado: ')      
 
 # 3. Usar una instrucción if  y isdigit() para verificar si el número es válido
 if not entrada.isdigit():
     print("Error: Ingresa un número válido.")
+    exit()
     #TODO #2: Terminar el programa. 
     # Si la entrada no es válida
     # (puedes usar 'return' o 'exit()').
@@ -28,12 +29,16 @@ else:
     # TODO #3: Calcular el costo total con if/else. Si el uso es menos o igual a 1000 son $20.
     # Si el uso es mayor a 1000, entonces se cobra $20 por los primeros 1000 minutos,
     # y $0.05 por cada minuto extra.
+    if minutos_usados <= 1000:
+        costo_total = 20 
 
+    else:
+        costo_total = 20 + (minutos_usados-1000)*0.05
     # Imprimir el total a pagar con un mensaje claro
     # Tomen notas del variable usado. Usamos 'minutos_usados' en lugar de 'minutos'
     # para coincidir con la variable
     print(f"Usaste {minutos_usados} minutos, tu factura es de ${costo_total:.2f}")
 
+print('hola')
 # Ejemplo de impresión final:
 # Usaste 1004 minutos, tu factura es de $20.20
-print('hola.')
