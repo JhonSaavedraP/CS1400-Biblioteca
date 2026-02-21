@@ -17,9 +17,10 @@
 # ------------------------------------------
 # Importaciones necesarias
 # ------------------------------------------
-
-from turtle import make_turtle, forward, left
-
+import turtle
+ventana = turtle.Screen()
+t = turtle.Turtle()
+t.speed(2)
 # ------------------------------------------
 # Paso 1: Crear la ventana y la tortuga
 # ------------------------------------------
@@ -30,6 +31,7 @@ from turtle import make_turtle, forward, left
 
 # Escribe aquí tu código
 
+ventana.setup(400,400)
 
 # ------------------------------------------
 # Paso 2: Dibujar una línea
@@ -41,6 +43,7 @@ from turtle import make_turtle, forward, left
 
 # Escribe aquí tu código
 
+# t.forward(100)
 
 # ------------------------------------------
 # Paso 3: Girar la tortuga
@@ -52,6 +55,8 @@ from turtle import make_turtle, forward, left
 
 # Escribe aquí tu código
 
+# t.left(90)
+# t.forward(100)
 
 # ------------------------------------------
 # Paso 4: Dibujar un cuadrado (sin bucle)
@@ -70,7 +75,17 @@ print("Dibujando un cuadrado sin bucle...")
 
 # Escribe aquí tu código
 
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
 
+t.clear()
 # ------------------------------------------
 # Paso 5: Dibujar un cuadrado usando un bucle
 # ------------------------------------------
@@ -87,6 +102,11 @@ print("Dibujando un cuadrado con bucle...")
 #     forward(...)
 #     left(...)
 
+for i in range(4):
+    t.forward(100)
+    t.left(90)
+
+t.clear()
 
 # ------------------------------------------
 # Paso EXTRA (opcional)
@@ -97,3 +117,13 @@ print("Dibujando un cuadrado con bucle...")
 # - Un triángulo tiene 3 lados.
 # - Un giro completo es 360 grados.
 # - ¿Cuánto debe girar en cada esquina?
+
+
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(120)
+t.forward(100)
+t.left(90)
+
+turtle.done()
