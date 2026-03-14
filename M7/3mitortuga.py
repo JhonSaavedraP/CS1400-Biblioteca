@@ -17,10 +17,9 @@
 # ------------------------------------------
 # Importaciones necesarias
 # ------------------------------------------
-import turtle
-ventana = turtle.Screen()
-t = turtle.Turtle()
-t.speed(2)
+
+from turtle import make_turtle, forward, left
+
 # ------------------------------------------
 # Paso 1: Crear la ventana y la tortuga
 # ------------------------------------------
@@ -117,13 +116,3 @@ t.clear()
 # - Un triángulo tiene 3 lados.
 # - Un giro completo es 360 grados.
 # - ¿Cuánto debe girar en cada esquina?
-
-
-t.forward(100)
-t.left(120)
-t.forward(100)
-t.left(120)
-t.forward(100)
-t.left(90)
-
-turtle.done()
