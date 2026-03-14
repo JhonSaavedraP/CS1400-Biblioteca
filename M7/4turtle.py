@@ -98,7 +98,7 @@ def dibujar_tarta(n_porciones, longitud):
     ###### for _ in range(n_porciones):
         # triangulo(...)
         # turtle.left(...)
-        pass
+       
 ########
 
     # for ...:
