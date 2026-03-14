@@ -54,4 +54,4 @@ def ejecutar_programa():
 
 # El programa se ejecutará desde aquí
 if __name__ == "__main__":
-    ejecutar_programa()
+    ejecutar_programa() 
