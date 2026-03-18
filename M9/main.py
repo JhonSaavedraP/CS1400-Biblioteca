@@ -8,7 +8,7 @@ def mostrar_menu():
     # El usuario puede elegir entre ver el inventario, agregar un producto, buscar un precio o salir.
     # El programa seguirá ejecutándose hasta que el usuario elija salir.
     # TODO #1 Completa el menú de opciones imprimiendo un mensaje y las opciones.
-    
+    return
 
 def ejecutar_programa():
     # TODO #2 iniciar un diccionario vacio

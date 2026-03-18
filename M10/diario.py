@@ -1,10 +1,13 @@
 # --- Diaro de      Digital ---
 
 # Aqui tu funcion menu()
-
+def menu ():
+    print('1. Escribir')
+    print('leer')
+    print('')   
 while True:
     opcion = menu()
-
+    
     #Aqui tu if/elif/elif/else statement con las opciones del menu
     
     # Entrada de datos
