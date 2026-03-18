@@ -1,13 +1,13 @@
 En este ejercicio, crearás un programa que actúe como un diario. Podrás escribir tus pensamientos y el programa los guardará permanentemente en un archivo de texto utilizando Visual Studio Code.
 
-# Objetivos
+<!-- # Objetivos -->
 Utilizar la función input() para recibir datos del usuario.
 
 Manipular archivos de texto (.txt) con las funciones open(), write() y read().
 
 Entender la importancia de cerrar archivos o usar el contexto with.
 
-# Pasos
+<!-- # Pasos -->
 1. Crea una funcion que guarde opciones en tu menu. 
 - Escribir, 2. Leer, 3. Salir
 2. Complete el While True agregando un if/elif/elif/else
