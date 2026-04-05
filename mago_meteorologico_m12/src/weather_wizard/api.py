@@ -7,7 +7,7 @@ import requests
 
 # En un entorno profesional, esto vendría de un archivo .env
 BASE_URL = "https://api.weatherapi.com/v1/current.json"
-API_KEY = "tu_llave_aqui"  # Solo para propósitos educativos
+API_KEY = "6a26649f67804a09a4d44302260504"  # Solo para propósitos educativos
 
 def fetch_weather_from_provider(city_name: str) -> dict:
     """
